@@ -32,7 +32,7 @@ import cv2
 import pdfplumber
 import pytesseract
 from pdf2image import convert_from_path
-from creds import api_key, hugging_face_key
+from creds import hugging_face_key
 
 #from playsound import playsound
 #from langchain.text_splitter import CharacterTextSplitter
@@ -48,11 +48,12 @@ from creds import api_key, hugging_face_key
 #from scipy.io.wavfile import write
 
 # Setting Env
-# if st.secrets["OPENAI_API_KEY"] is not None:
-#     os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-# else:
-#     os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = api_key
+if st.secrets["OPENAI_API_KEY"] is not None:
+    os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+else:
+    os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY")
+
+# os.environ["OPENAI_API_KEY"] = api_key
 
 @st.cache_data
 def show_pdf(file_path):
