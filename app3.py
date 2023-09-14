@@ -39,7 +39,7 @@ from creds import hugging_face_key
 #from langchain.embeddings.openai import OpenAIEmbeddings
 #from langchain.chains.summarize import load_summarize_chain
 #import os
-#import pyaudio
+#import pyaudiogi
 #import wave
 #from langchain.document_loaders import UnstructuredPDFLoader
 #import streamlit.components.v1 as components
