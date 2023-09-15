@@ -522,6 +522,14 @@ st.markdown("""
     gap: 0;
 }
 
+.css-1544g2n {
+    padding: 4rem 1rem 1.5rem;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
 .st-ah {
     line-height: 1.0;
 }
