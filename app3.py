@@ -496,22 +496,6 @@ st.markdown("""
     height: 3rem;
 }
 
-.st-bv {
-    margin-left: 2px;
-}
-
-.st-bu {
-    margin-bottom: 2px;
-}
-
-.st-bt {
-    margin-top: 0.55rem;
-}
-
-.st-br {
-    height: 1.5rem;
-}
-
 
 
 .st-af {
