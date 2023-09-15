@@ -545,9 +545,6 @@ st.markdown("""
     line-height: 1.0;
 }
 
-.st-af {
-    font-size: 1.5rem;
-}
 
 .css-1a65djw {
     gap: 0;
