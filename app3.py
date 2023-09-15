@@ -488,10 +488,6 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-body{
-    line-height: 0.5rem;
-}
-
 p{
     margin-bottom: 0;
 }
