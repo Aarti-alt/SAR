@@ -518,6 +518,10 @@ st.markdown("---")
 st.markdown("""
 
 <style>
+
+.st-ex {
+    height: 10px;
+}
 .st-d5 {
     line-height: 1;
 }
