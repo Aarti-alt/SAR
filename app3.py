@@ -465,13 +465,13 @@ if selected_option == "SAR-2023-24680":
     col1,col2 = st.columns(2)
     # Row 1
     with col1:
-        st.markdown("#### **Case number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** SAR-2023-24680")
-        st.markdown("#### **Customer name  :** John Brown")
+        st.markdown("##### **Case number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** SAR-2023-24680")
+        st.markdown("##### **Customer name  :** John Brown")
 
 
     with col2:
-        st.markdown("**Case open date&nbsp;&nbsp;&nbsp;&nbsp;:** Feb 02, 2021")
-        st.markdown("**Case type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** Fraud transaction")
+        st.markdown("##### **Case open date&nbsp;&nbsp;&nbsp;&nbsp;:** Feb 02, 2021")
+        st.markdown("##### **Case type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** Fraud transaction")
 
 
     # Row 2
