@@ -488,9 +488,9 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.css-uf99v8{
-    width: 100%;
-}
+ *,::after, ::before {
+    box-sizing: None
+    }
 
 .css-xujc5b p{
    font-size: 22px;
