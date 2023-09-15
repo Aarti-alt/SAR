@@ -494,11 +494,11 @@ st.markdown("""
 
 
 .st-bu {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .st-bt {
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 
