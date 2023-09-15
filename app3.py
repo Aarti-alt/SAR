@@ -488,9 +488,10 @@ st.markdown("---")
 st.markdown("""
 <style>
 
- *,::after, ::before {
-    box-sizing: None
-    }
+ .css-1y4p8pa {
+    width: 100%;
+    padding: 0;
+    max-width: 46rem;
 
 .css-xujc5b p{
    font-size: 22px;
