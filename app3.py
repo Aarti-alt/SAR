@@ -488,8 +488,8 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-ce {
-    top: 5px;
+.st-br {
+    height: 3rem;
 }
 .css-1a65djw {
     gap: 0;
