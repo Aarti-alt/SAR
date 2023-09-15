@@ -489,11 +489,11 @@ st.markdown("""
 <style>
 
 .st-ci {
-    width: 1rem;
+    width: 1.5rem;
 }
 <style>
 .st-ch {
-    height: 1rem;
+    height: 1.5rem;
 }
 
 .st-bv {
