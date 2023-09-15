@@ -518,6 +518,10 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.css-1balh2r{
+    gap: 0;
+}
+
 .st-ah {
     line-height: 1.0;
 }
