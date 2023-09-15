@@ -492,7 +492,6 @@ st.markdown("""
     height: 1px;
 }
 
-<style>
 .st-c4 {
     width: 1px;
 }
