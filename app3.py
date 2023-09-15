@@ -514,14 +514,11 @@ st.markdown("---")
 
 # </style>
 
-####### Tabs
+####### This markdown is to manage app style
 st.markdown("""
 
 <style>
 
-.st-ex {
-    height: 10px;
-}
 .st-d5 {
     line-height: 1;
 }
@@ -544,7 +541,7 @@ st.markdown("""
 }
 
 .st-ah {
-    line-height: 1.0;
+    line-height: 1.5;
 }
 
 .st-af {
