@@ -488,7 +488,9 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-
+element-style{
+    width: 500px;
+}
 
 .css-xujc5b p{
    font-size: 22px;
@@ -518,7 +520,7 @@ with col1_up:
         def set_clicked():
             st.session_state.clicked = True
             st.session_state.disabled = True
-        st.write("")
+        st.write("") #for the gap
         st.button('Fetch Evidence', on_click=set_clicked)
 
         if st.session_state.clicked:
@@ -1514,7 +1516,7 @@ with col_d2:
                 st.error("Please enter a valid email ID")
         if st.button("Submit"):
             if selected_rad in ("str_opt1"):
-                st.write("")
+                st.write("") 
             elif selected_rad in ("Yes"):
                 st.warning("Thanks for your review, your response has been submitted")
             elif selected_rad in ("No"):
