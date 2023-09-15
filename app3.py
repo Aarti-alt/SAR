@@ -488,28 +488,9 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-cy{
-    padding-top: 0.5rem;
-}
-body{
-    line-height: 1;
-}
-.css-advk68 {
-    gap: 0.5rem;
-    }
-
-
-.css-jzprzu {
-    height: 0.5rem;
-    min-height: 0.2rem;
-    }
-
 .css-xujc5b p{
    font-size: 22px;
 }
-
-
-
 
 </style>
 """, unsafe_allow_html=True)
