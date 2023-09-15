@@ -489,7 +489,7 @@ st.markdown("""
 <style>
 
 .css-advk68 {
-    gap: 0;
+    gap: 0.2rem;
     }
 
 
