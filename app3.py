@@ -488,12 +488,8 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-f4 {
-    width: 0.50rem;
-}
-
-.st-f3 {
-    height: 0.50rem;
+.st-f0 {
+    top: 0;
 }
 
 
