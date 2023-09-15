@@ -540,6 +540,10 @@ st.markdown("""
     padding-left: 1rem;
 }
 
+.css-1v7bkj4 {
+    max-width: 60rem;
+}
+
 .st-ah {
     line-height: 1;
 }
