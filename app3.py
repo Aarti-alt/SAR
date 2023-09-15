@@ -516,10 +516,10 @@ st.markdown("---")
 
 ####### Tabs
 st.markdown("""
-<style>
 
-.st-b8 {
-    width: 80%;
+<style>
+.st-d5 {
+    line-height: 1;
 }
 
 .css-1upf7v9 { 
