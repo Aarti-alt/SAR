@@ -488,17 +488,15 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-bv {
-    margin-left: 1px;
-}
+
 
 
 .st-bu {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .st-bt {
-    margin-top: 16px;
+    margin-top: 15px;
 }
 
 
