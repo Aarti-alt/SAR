@@ -489,7 +489,7 @@ st.markdown("""
 <style>
 body{
     line-height: 0.5;
-    font-weight: 100;
+    font-weight: 300;
 }
 .css-xujc5b p{
 font-size: 22px;
