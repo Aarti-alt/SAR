@@ -28,10 +28,10 @@ from io import StringIO
 from io import BytesIO
 from usellm import Message, Options, UseLLM
 from huggingface_hub import login
-import cv2
-import pdfplumber
-import pytesseract
-from pdf2image import convert_from_path
+# import cv2
+# import pdfplumber
+# import pytesseract
+# from pdf2image import convert_from_path
 from creds import hugging_face_key
 
 #from playsound import playsound
@@ -599,87 +599,109 @@ with col1_up:
     tmp_dir_ = tempfile.mkdtemp()
     temp_file_path= []
 
-    
-    file_pth = []
+
     for uploaded_file in pdf_files:
         file_ext = tuple("pdf")
         if uploaded_file.name.endswith(file_ext):
-            file_pth_= os.path.join(tmp_dir_, uploaded_file.name)
-            with open(file_pth_, "wb") as file_opn:
+            file_pth = os.path.join(tmp_dir_, uploaded_file.name)
+            with open(file_pth, "wb") as file_opn:
                 file_opn.write(uploaded_file.getbuffer())
-                file_pth.append(file_pth_)
+                temp_file_path.append(file_pth)
         else:
             pass
-        
-
-
-#     for fetched_pdf in fetched_files:
-#         file_ext = tuple("pdf")
-#         if fetched_pdf.endswith(file_ext):
-#             file_pth = os.path.join('data/', fetched_pdf)
-#             # st.write(file_pth)
-#             temp_file_path.append(file_pth) 
-#         else:
-#             pass
-        
-        
-    # # Pytesseract code
-    # for uploaded_file in pdf_files:
-    #     file_ext = tuple("pdf")
-    #     if uploaded_file.name.endswith(file_ext):
-    #         if is_searchable_pdf(uploaded_file)==False:
-    #             st.write(f"File is not searchable:{uploaded_file.name}")
-    #             with st.spinner('ocr initiated...'):
-    #                 text = convert_scanned_pdf_to_searchable_pdf(uploaded_file)
-    #                 file_pth = os.path.join(tmp_dir_, text)
-    #                 with open(file_pth, "wb") as file_opn:
-    #                     file_opn.write(uploaded_file.getbuffer())
-    #                     temp_file_path.append(file_pth)
-    #         else:
-    #             file_pth = os.path.join(tmp_dir_, uploaded_file.name)
-    #             with open(file_pth, "wb") as file_opn:
-    #                 file_opn.write(uploaded_file.getbuffer())
-    #                 temp_file_path.append(file_pth)
-    #     else:
-    #         pass
-    
-    
-    # # Pytesseract code
-    for file in file_pth:
-        if is_searchable_pdf(file)==False:
-            # st.write("File is not searchable")
-            with st.spinner('ocr initiated...'):
-                text = convert_scanned_pdf_to_searchable_pdf(file)
-                st.write(text)
-    #         file_pth = os.path.join(tmp_dir_, text)
-    #         with open(file_pth, "wb") as file_opn:
-    #             file_opn.write(uploaded_file.getbuffer())
-    #             temp_file_path.append(file_pth)
-    #     else:
-    #         file_pth = os.path.join(tmp_dir_, uploaded_file.name)
-    #         with open(file_pth, "wb") as file_opn:
-    #         file_opn.write(uploaded_file.getbuffer())
-    #         temp_file_path.append(file_pth)
-    # else:
-    #     pass
 
 
     for fetched_pdf in fetched_files:
         file_ext = tuple("pdf")
         if fetched_pdf.endswith(file_ext):
-            selected_file_path = os.path.join(directoty_path, fetched_pdf)
-            if is_searchable_pdf(selected_file_path)==False:
-                st.write(f"File is not searchable:{fetched_pdf}")
-                with st.spinner('ocr initiated...'):
-                    text = convert_scanned_pdf_to_searchable_pdf(selected_file_path)
-                    file_pth = os.path.join(tmp_dir_, text)
-                    temp_file_path.append(file_pth)
-            else:
-                file_pth = os.path.join(directoty_path, fetched_pdf)
-                # st.write(file_pth)
-                temp_file_path.append(file_pth)
+            file_pth = os.path.join('data/', fetched_pdf)
+            # st.write(file_pth)
+            temp_file_path.append(file_pth) 
         else:
             pass
+
+
+    
+#     file_pth = []
+#     for uploaded_file in pdf_files:
+#         file_ext = tuple("pdf")
+#         if uploaded_file.name.endswith(file_ext):
+#             file_pth_= os.path.join(tmp_dir_, uploaded_file.name)
+#             with open(file_pth_, "wb") as file_opn:
+#                 file_opn.write(uploaded_file.getbuffer())
+#                 file_pth.append(file_pth_)
+#         else:
+#             pass
+        
+
+
+# #     for fetched_pdf in fetched_files:
+# #         file_ext = tuple("pdf")
+# #         if fetched_pdf.endswith(file_ext):
+# #             file_pth = os.path.join('data/', fetched_pdf)
+# #             # st.write(file_pth)
+# #             temp_file_path.append(file_pth) 
+# #         else:
+# #             pass
+        
+        
+#     # # Pytesseract code
+#     # for uploaded_file in pdf_files:
+#     #     file_ext = tuple("pdf")
+#     #     if uploaded_file.name.endswith(file_ext):
+#     #         if is_searchable_pdf(uploaded_file)==False:
+#     #             st.write(f"File is not searchable:{uploaded_file.name}")
+#     #             with st.spinner('ocr initiated...'):
+#     #                 text = convert_scanned_pdf_to_searchable_pdf(uploaded_file)
+#     #                 file_pth = os.path.join(tmp_dir_, text)
+#     #                 with open(file_pth, "wb") as file_opn:
+#     #                     file_opn.write(uploaded_file.getbuffer())
+#     #                     temp_file_path.append(file_pth)
+#     #         else:
+#     #             file_pth = os.path.join(tmp_dir_, uploaded_file.name)
+#     #             with open(file_pth, "wb") as file_opn:
+#     #                 file_opn.write(uploaded_file.getbuffer())
+#     #                 temp_file_path.append(file_pth)
+#     #     else:
+#     #         pass
+    
+    
+#     # # Pytesseract code
+#     for file in file_pth:
+#         if is_searchable_pdf(file)==False:
+#             # st.write("File is not searchable")
+#             with st.spinner('ocr initiated...'):
+#                 text = convert_scanned_pdf_to_searchable_pdf(file)
+#                 st.write(text)
+#     #         file_pth = os.path.join(tmp_dir_, text)
+#     #         with open(file_pth, "wb") as file_opn:
+#     #             file_opn.write(uploaded_file.getbuffer())
+#     #             temp_file_path.append(file_pth)
+#     #     else:
+#     #         file_pth = os.path.join(tmp_dir_, uploaded_file.name)
+#     #         with open(file_pth, "wb") as file_opn:
+#     #         file_opn.write(uploaded_file.getbuffer())
+#     #         temp_file_path.append(file_pth)
+#     # else:
+#     #     pass
+
+
+#     for fetched_pdf in fetched_files:
+#         file_ext = tuple("pdf")
+#         if fetched_pdf.endswith(file_ext):
+#             selected_file_path = os.path.join(directoty_path, fetched_pdf)
+#             if is_searchable_pdf(selected_file_path)==False:
+#                 st.write(f"File is not searchable:{fetched_pdf}")
+#                 with st.spinner('ocr initiated...'):
+#                     text = convert_scanned_pdf_to_searchable_pdf(selected_file_path)
+#                     file_pth = os.path.join(tmp_dir_, text)
+#                     temp_file_path.append(file_pth)
+#             else:
+#                 file_pth = os.path.join(directoty_path, fetched_pdf)
+#                 # st.write(file_pth)
+#                 temp_file_path.append(file_pth)
+#         else:
+#             pass
     
 
     #combining files in fetch evidence and upload evidence
