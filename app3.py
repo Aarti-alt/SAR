@@ -488,8 +488,8 @@ st.markdown("---")
 st.markdown("""
 <style>
 body{
-    line-height: 6;
-    font-weight: 600;
+    line-height: 20;
+    font-weight: 900;
 }
 .css-xujc5b p{
 font-size: 22px;
