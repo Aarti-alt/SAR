@@ -491,7 +491,7 @@ st.markdown("""
 
 
 .st-af {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .css-1a65djw {
