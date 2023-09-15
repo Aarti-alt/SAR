@@ -488,7 +488,9 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-
+.st-ah {
+    line-height: 1;
+}
 
 .st-af {
     font-size: 1.5rem;
