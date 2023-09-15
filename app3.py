@@ -1490,7 +1490,7 @@ with col_d2:
 
     with col5_up:   
         # Adding Radio button
-        st.markdown("""<span style="font-size: 22px; ">Make Decision</span>""", unsafe_allow_html=True)
+        st.markdown("""<span style="font-size: 20px; ">Make Decision</span>""", unsafe_allow_html=True)
         # st.header("Make Decision")
         st.markdown(
                 """ <style>
@@ -1501,9 +1501,8 @@ with col_d2:
                     """,
                 unsafe_allow_html=True
             )
-        st.markdown("""<span style="font-size: 20px; ">Is SAR filing required?</span>""", unsafe_allow_html=True)
-        # st.markdown("##### Is SAR filing required?")
-        selected_rad = st.radio(":blue", ["opt1","Yes", "No", "Refer for review"], horizontal=True,disabled=st.session_state.disabled)
+        st.markdown("##### Is SAR filing required?")
+        selected_rad = st.radio(":blue[Please select your choice]", ["opt1","Yes", "No", "Refer for review"], horizontal=True,disabled=st.session_state.disabled)
         if selected_rad == "Refer for review":
             email_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
             email_id = st.text_input("Enter your email ID")
