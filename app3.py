@@ -489,9 +489,12 @@ st.markdown("""
 <style>
 
 .st-f0 {
-    top: 0;
+    top: 0.5px;
 }
 
+.st-ah {
+    line-height: 1.0;
+}
 
 
 
