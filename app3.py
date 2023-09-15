@@ -488,6 +488,10 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.st-de {
+    height: 2rem;
+}
+
 .st-ah {
     line-height: 2;
 }
