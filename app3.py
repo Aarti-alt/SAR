@@ -484,16 +484,43 @@ if selected_option == "SAR-2023-24680":
 
 st.markdown("---")
 
+# <style>
+
+# .st-ah {
+#     line-height: 1.0; (This to align open-ai, open-source with the radio buttions)
+# }
+
+# .st-af {
+#     font-size: 1.5rem; (This is to increase size of radio button label (open-ai, open-source))
+# }
+
+# .css-1a65djw {
+#     gap: 0; (To reduce gap between "ask additional question and box")
+#     }
+
+#  .css-1y4p8pa {
+#     width: 100%;
+#     padding: 0;
+#     max-width: 60rem; (This is to increase width and reduce padding of the complete box)
+
+# .css-xujc5b p{
+#    font-size: 25px; (To increase font size of tabs label)
+# }
+
+# .css-jzprzu {
+#     height: 0.5rem;
+#     min-height: 0.2rem; (To reduce gap)
+#     }
+
+# </style>
+
 ####### Tabs
 st.markdown("""
 <style>
 
-# To align 
 .st-ah {
     line-height: 1.0;
 }
-
-
 
 .st-af {
     font-size: 1.5rem;
@@ -511,12 +538,6 @@ st.markdown("""
 .css-xujc5b p{
    font-size: 25px;
 }
-
-.css-jzprzu {
-    height: 0.5rem;
-    min-height: 0.2rem;
-    }
-
 
 
 
