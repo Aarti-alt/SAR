@@ -465,8 +465,8 @@ if selected_option == "SAR-2023-24680":
     col1,col2 = st.columns(2)
     # Row 1
     with col1:
-        st.markdown("**Case number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** SAR-2023-24680")
-        st.markdown("**Customer name  :** John Brown")
+        st.markdown("#### **Case number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** SAR-2023-24680")
+        st.markdown("#### **Customer name  :** John Brown")
 
 
     with col2:
