@@ -493,7 +493,7 @@ st.markdown("""
 }
 <style>
 .st-ch {
-    height: 1.5rem;
+    height: 2rem;
 }
 
 .st-bv {
