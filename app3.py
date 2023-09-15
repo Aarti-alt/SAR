@@ -541,7 +541,7 @@ st.markdown("""
 }
 
 .st-ah {
-    line-height: 1.5;
+    line-height: 1;
 }
 
 .st-af {
