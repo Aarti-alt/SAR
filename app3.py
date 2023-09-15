@@ -487,7 +487,10 @@ st.markdown("---")
 ####### Tabs
 st.markdown("""
 <style>
-
+css-jzprzu {
+    height: 1rem;
+    min-height: 0.5rem;
+    }
 .css-xujc5b p{
 font-size: 22px;
 }
