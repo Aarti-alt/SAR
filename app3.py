@@ -523,8 +523,8 @@ st.markdown("""
 }
 
 .css-1544g2n {
-    padding: 3rem 1rem 1.5rem;
-    padding-top: 3rem;
+    padding: 2rem 1rem 1.5rem;
+    padding-top: 2rem;
     padding-right: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 1rem;
