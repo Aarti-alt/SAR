@@ -494,9 +494,7 @@ st.markdown("""
 body{
     line-height: 1;
 }
-.css-advk68 {
-    gap: 0.5rem;
-    }
+
 
 
 .css-jzprzu {
