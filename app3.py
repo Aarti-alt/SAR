@@ -491,13 +491,6 @@ st.markdown("""
 
 
 
-.st-bu {
-    margin-bottom: 5px;
-}
-
-.st-bt {
-    margin-top: 5px;
-}
 
 
 .st-af {
