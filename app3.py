@@ -488,10 +488,9 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.css-l3i8zm {
-    font-size: 20px;
-    }
-
+.st-ce {
+    top: 2px;
+}
 .css-1a65djw {
     gap: 0;
     }
