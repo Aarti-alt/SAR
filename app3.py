@@ -519,7 +519,7 @@ st.markdown("""
 <style>
 
 .css-1upf7v9 { 
-    gap: 0;
+    gap: 0.5rem;
 }
 
 .css-1balh2r{
