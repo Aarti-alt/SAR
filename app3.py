@@ -488,11 +488,17 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.st-ah {
+    line-height: 1;
+}
+
+.st-af {
+    font-size: 2rem;
+}
+
 .css-1a65djw {
     gap: 0;
     }
-
-
 
  .css-1y4p8pa {
     width: 100%;
