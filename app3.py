@@ -571,8 +571,8 @@ st.markdown("""
 }
 
 .css-jzprzu {
-    height: 0.5rem;
-    min-height: 0.2rem;
+    height: 2rem;
+    min-height: 0.5rem;
     }
 
 </style>
