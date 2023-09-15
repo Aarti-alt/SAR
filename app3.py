@@ -489,10 +489,10 @@ st.markdown("""
 <style>
 
 .st-bv {
-    margin-left: 0;
+    margin-left: 1px;
 }
 
-<style>
+
 .st-bu {
     margin-bottom: 0;
 }
