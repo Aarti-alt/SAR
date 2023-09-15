@@ -537,7 +537,7 @@ st.markdown("""
     padding-top: 2rem;
     padding-right: 0;
     padding-bottom: 1.5rem;
-    padding-left: 1rem;
+    padding-left: 0;
 }
 
 .st-ah {
