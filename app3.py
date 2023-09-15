@@ -488,6 +488,11 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.css-jzprzu {
+    height: 0.5rem;
+    min-height: 0.2rem;
+    }
+
 .css-xujc5b p{
 font-size: 22px;
 }
