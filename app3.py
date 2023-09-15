@@ -518,7 +518,7 @@ with col1_up:
         def set_clicked():
             st.session_state.clicked = True
             st.session_state.disabled = True
-        
+        st.write("")
         st.button('Fetch Evidence', on_click=set_clicked)
 
         if st.session_state.clicked:
