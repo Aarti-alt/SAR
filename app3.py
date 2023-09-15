@@ -489,11 +489,11 @@ st.markdown("""
 <style>
 
 .st-f4 {
-    width: 2rem;
+    width: 0.50rem;
 }
 
 .st-f3 {
-    height: 2rem;
+    height: 0.50rem;
 }
 
 
