@@ -539,9 +539,7 @@ st.markdown("""
     padding-bottom: 1.5rem;
     padding-left: 1rem;
 }
-.css-1q2g7hi.element.style {
-    width:500px;
-    }
+
 .css-1q2g7hi {
     top: 2px;
     min-width: 350px;
