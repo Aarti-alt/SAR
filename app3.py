@@ -570,7 +570,10 @@ st.markdown("""
    font-size: 25px;
 }
 
-
+.css-jzprzu {
+    height: 0.5rem;
+    min-height: 0.2rem;
+    }
 
 </style>
 """, unsafe_allow_html=True)
