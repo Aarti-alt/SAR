@@ -491,7 +491,7 @@ st.markdown("""
  .css-1y4p8pa {
     width: 100%;
     padding: 0;
-    max-width: 100rem;
+    max-width: 65rem;
 
 .css-xujc5b p{
    font-size: 22px;
