@@ -488,7 +488,7 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-element-style{
+.css-uf99v8{
     width: 500px;
 }
 
