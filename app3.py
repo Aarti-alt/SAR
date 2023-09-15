@@ -487,7 +487,9 @@ st.markdown("---")
 ####### Tabs
 st.markdown("""
 <style>
-
+body{
+    line-height: 1;
+}
 .css-advk68 {
     gap: 0.5rem;
     }
