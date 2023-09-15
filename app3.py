@@ -490,13 +490,8 @@ st.markdown("""
 .css-xujc5b p{
 font-size: 22px;
 }
-.st-cu{
-    height: 0.12rem;
-}
 
-.st-fr{
-    width: 100px;
-}
+
 </style>
 """, unsafe_allow_html=True)
 
