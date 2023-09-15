@@ -498,8 +498,14 @@ p{
     }
 
 .css-xujc5b p{
-font-size: 22px;
+   font-size: 22px;
 }
+
+.css-ocqkz7 {
+   gap: 0;
+      row-gap:0;
+      column-gap:0;
+    }
 
 
 </style>
