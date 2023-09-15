@@ -487,7 +487,7 @@ st.markdown("---")
 ####### Tabs
 st.markdown("""
 <style>
-css-jzprzu {
+.css-jzprzu {
     height: 1rem;
     min-height: 0.5rem;
     }
