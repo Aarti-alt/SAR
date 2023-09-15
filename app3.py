@@ -491,11 +491,11 @@ st.markdown("""
 font-size: 22px;
 }
 .st-cu{
-    height: 0.05rem;
+    height: 0.12rem;
 }
 
 .st-fr{
-    width: 80px;
+    width: 100px;
 }
 </style>
 """, unsafe_allow_html=True)
