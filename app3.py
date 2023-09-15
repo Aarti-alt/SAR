@@ -488,6 +488,15 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.st-c5 {
+    height: 1px;
+}
+
+<style>
+.st-c4 {
+    width: 1px;
+}
+
 .st-af {
     font-size: 1.5rem;
 }
