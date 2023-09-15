@@ -552,7 +552,13 @@ st.markdown("""
     gap: 0;
     }
 
-
+.css-1y4p8pa {
+    width: 100%;
+    padding: 4rem 1rem 10rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+    max-width: 60rem;
+}
 
 .css-xujc5b p{
    font-size: 25px;
