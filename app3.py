@@ -522,6 +522,9 @@ st.markdown("""
     line-height: 1;
 }
 
+.st-af {
+    font-size: 1.2rem;
+}
 .css-1upf7v9 { 
     gap: 0.5rem;
 }
