@@ -487,6 +487,10 @@ st.markdown("---")
 ####### Tabs
 st.markdown("""
 <style>
+
+.st-cy{
+    padding-top: 0.5rem;
+}
 body{
     line-height: 1;
 }
