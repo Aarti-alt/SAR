@@ -491,7 +491,11 @@ st.markdown("""
 font-size: 22px;
 }
 .st-cu{
-    height: 0.11rem;
+    height: 0.05rem;
+}
+
+.st-fr{
+    width: 80px;
 }
 </style>
 """, unsafe_allow_html=True)
