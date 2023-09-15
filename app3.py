@@ -488,22 +488,6 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-
-
-
-
-.st-bt {
-    margin-top: 2px;
-}
-
-
-
-
-
-.st-af {
-    font-size: 25px;
-}
-
 .css-1a65djw {
     gap: 0;
     }
