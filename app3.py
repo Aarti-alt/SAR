@@ -490,6 +490,9 @@ st.markdown("""
 .css-xujc5b p{
 font-size: 22px;
 }
+.st-cu{
+    height: 0.11rem;
+}
 </style>
 """, unsafe_allow_html=True)
 
