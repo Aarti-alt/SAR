@@ -492,7 +492,7 @@ st.markdown("""
     padding-top: 0.5rem;
 }
 body{
-    line-height: 1;
+    line-height: 2;
 }
 .css-advk68 {
     gap: 0.5rem;
