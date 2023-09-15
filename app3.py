@@ -489,19 +489,19 @@ st.markdown("""
 <style>
 
 .st-ci {
-    width: 1.5rem;
+    width: 3rem;
 }
 <style>
 .st-ch {
-    height: 2rem;
+    height: 3rem;
 }
 
 .st-bv {
-    margin-left: 3px;
+    margin-left: 2px;
 }
 
 .st-bu {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 
 .st-bt {
