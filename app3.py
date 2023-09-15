@@ -502,7 +502,7 @@ p{
 }
 
 .css-ocqkz7 {
-   gap: 
+   gap: 0; 
       row-gap:0.5rem;
       column-gap:0.5rem;
     }
