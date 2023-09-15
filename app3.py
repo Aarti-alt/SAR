@@ -493,7 +493,9 @@ st.markdown("""
     }
 
 
-
+body{
+    line-height: 1;
+}
 
  .css-1y4p8pa {
     width: 100%;
