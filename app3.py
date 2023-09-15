@@ -488,6 +488,17 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.css-1a65djw {
+    gap: 0;
+    }
+
+.st-cy{
+    padding-top: 0.5rem;
+}
+body{
+    line-height: 1;
+}
+
  .css-1y4p8pa {
     width: 100%;
     padding: 0;
@@ -502,15 +513,8 @@ st.markdown("""
     min-height: 0.2rem;
     }
 
-    st-cy{
-    padding-top: 0.5rem;
-}
-body{
-    line-height: 1;
-}
-.css-1a65djw {
-    gap: 0;
-    }
+
+
 
 </style>
 """, unsafe_allow_html=True)
