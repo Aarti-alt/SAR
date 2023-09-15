@@ -489,7 +489,7 @@ st.markdown("""
 <style>
 
 .css-advk68 {
-    width: 300px;
+    width: 800px;
     }
 
 .css-xujc5b p{
