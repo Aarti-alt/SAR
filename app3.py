@@ -488,6 +488,9 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.css-advk68 {
+    gap: 0;
+    }
 
 
 .css-jzprzu {
