@@ -501,11 +501,7 @@ p{
    font-size: 22px;
 }
 
-.css-ocqkz7 {
-   gap: 1rem; 
-      row-gap:0.5rem;
-      column-gap:0.5rem;
-    }
+
 
 
 </style>
