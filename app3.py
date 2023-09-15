@@ -508,7 +508,7 @@ st.markdown("""
 body{
     line-height: 1;
 }
-.css-advk68 {
+.css-1a65djw {
     gap: 0.5rem;
     }
 
