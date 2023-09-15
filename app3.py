@@ -535,7 +535,7 @@ st.markdown("""
 .css-1544g2n {
     padding: 0;
     padding-top: 2rem;
-    padding-right: 0.5rem;
+    padding-right: 0;
     padding-bottom: 1.5rem;
     padding-left: 1rem;
 }
