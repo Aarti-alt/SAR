@@ -1009,7 +1009,7 @@ with col2_up:
     # Text Input
     st.markdown("""<span style="font-size: 20px; ">Ask Additional Questions</span>""", unsafe_allow_html=True)
     # st.subheader("Ask Additional Questions")
-    query = st.text_input(':blue]',disabled=st.session_state.disabled)
+    query = st.text_input(':blue',disabled=st.session_state.disabled)
     text_dict = {}
     @st.cache_data
     def LLM_Response():
