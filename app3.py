@@ -492,9 +492,7 @@ st.markdown("""
     gap: 0;
     }
 
-.st-cy{
-    padding-top: 0.5rem;
-}
+
 body{
     line-height: 1;
 }
