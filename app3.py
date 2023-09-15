@@ -488,9 +488,6 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-br {
-    height: 3rem;
-}
 .css-1a65djw {
     gap: 0;
     }
