@@ -496,7 +496,7 @@ st.markdown("""
 .st-bu {
     margin-bottom: 0;
 }
-<style>
+
 .st-bt {
     margin-top: 0;
 }
