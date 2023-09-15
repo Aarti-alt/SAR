@@ -488,13 +488,19 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-c5 {
-    height: 1px;
+.st-bv {
+    margin-left: 0;
 }
 
-.st-c4 {
-    width: 1px;
+<style>
+.st-bu {
+    margin-bottom: 0;
 }
+<style>
+.st-bt {
+    margin-top: 0;
+}
+
 
 .st-af {
     font-size: 1.5rem;
