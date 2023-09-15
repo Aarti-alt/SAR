@@ -557,7 +557,7 @@ st.markdown("""
     padding: 3rem 1rem 10rem;
     padding-top: 3rem;
     padding-bottom: 10rem;
-    max-width: 60rem;
+    max-width: 70rem;
 }
 
 .css-xujc5b p{
