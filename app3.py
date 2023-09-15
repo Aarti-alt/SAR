@@ -493,7 +493,7 @@ st.markdown("""
 }
 
 .st-af {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .css-1a65djw {
