@@ -544,7 +544,7 @@ st.markdown("""
     }
 .css-1q2g7hi {
     top: 2px;
-    min-width: 250px;
+    min-width: 350px;
     max-width: 600px;
     }
 
