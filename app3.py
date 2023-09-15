@@ -1568,7 +1568,7 @@ with col_d2:
 
     with col5_up:   
         # Adding Radio button
-        st.markdown("""<span style="font-size: 22px; ">Make Decision</span>""", unsafe_allow_html=True)
+        st.markdown("""<span style="font-size: 24px; ">Make Decision</span>""", unsafe_allow_html=True)
         # st.header("Make Decision")
         st.markdown(
                 """ <style>
@@ -1579,7 +1579,7 @@ with col_d2:
                     """,
                 unsafe_allow_html=True
             )
-        st.markdown("""<span style="font-size: 20px; ">Is SAR filing required?</span>""", unsafe_allow_html=True)
+        st.markdown("""<span style="font-size: 24px; ">Is SAR filing required?</span>""", unsafe_allow_html=True)
         # st.markdown("##### Is SAR filing required?")
         selected_rad = st.radio(":blue", ["opt1","Yes", "No", "Refer for review"], horizontal=True,disabled=st.session_state.disabled)
         if selected_rad == "Refer for review":
