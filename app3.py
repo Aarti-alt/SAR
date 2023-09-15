@@ -490,9 +490,7 @@ st.markdown("""
 
 
 
-.st-bu {
-    margin-bottom: 2px;
-}
+
 
 .st-bt {
     margin-top: 2px;
