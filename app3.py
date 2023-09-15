@@ -488,13 +488,17 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-ci {
-    width: 3rem;
+
+
+.st-bu {
+    margin-bottom: 2px;
 }
-<style>
-.st-ch {
-    height: 3rem;
+
+.st-bt {
+    margin-top: 2px;
 }
+
+
 
 
 
