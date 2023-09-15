@@ -502,6 +502,17 @@ st.markdown("""
     min-height: 0.2rem;
     }
 
+    st-cy{
+    padding-top: 0.5rem;
+}
+body{
+    line-height: 1;
+}
+.css-advk68 {
+    gap: 0.5rem;
+    }
+
+
 </style>
 """, unsafe_allow_html=True)
 
