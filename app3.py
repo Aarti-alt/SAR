@@ -488,9 +488,7 @@ st.markdown("---")
 st.markdown("""
 <style>
 
-.st-cy{
-    padding-top: 0;
-}
+
 
 .css-jzprzu {
     height: 0.5rem;
