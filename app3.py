@@ -1259,6 +1259,7 @@ with col2_up:
 
 with col3_up:
     with st.spinner('Summarization ...'):
+        st.markdown("""<span style="font-size: 20px; ">Summarize key findings of the case.</span>""", unsafe_allow_html=True)
         if st.button("Summarize",disabled=st.session_state.disabled):
             if st.session_state.llm == "Open-AI":
                 st.session_state.disabled=False
