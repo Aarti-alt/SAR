@@ -518,6 +518,10 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+.st-b8 {
+    width: 80%;
+}
+
 .css-1upf7v9 { 
     gap: 0.5rem;
 }
