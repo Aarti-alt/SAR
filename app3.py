@@ -489,7 +489,7 @@ st.markdown("""
 <style>
 
 .st-ce {
-    top: 2px;
+    top: 5px;
 }
 .css-1a65djw {
     gap: 0;
