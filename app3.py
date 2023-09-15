@@ -509,9 +509,8 @@ body{
     line-height: 1;
 }
 .css-1a65djw {
-    gap: 0.5rem;
+    gap: 0;
     }
-
 
 </style>
 """, unsafe_allow_html=True)
