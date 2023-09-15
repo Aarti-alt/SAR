@@ -488,6 +488,10 @@ st.markdown("---")
 st.markdown("""
 <style>
 
+p{
+    margin-bottom: 0;
+}
+
 .css-jzprzu {
     height: 0.5rem;
     min-height: 0.2rem;
