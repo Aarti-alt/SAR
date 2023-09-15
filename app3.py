@@ -488,7 +488,7 @@ st.markdown("---")
 st.markdown("""
 <style>
 .css-xujc5b p{
-font-size: 20px;
+font-size: 24px;
 }
 </style>
 """, unsafe_allow_html=True)
